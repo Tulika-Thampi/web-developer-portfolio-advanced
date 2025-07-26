@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Task List</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.svg" alt="Miss Dragoness Logo" class="logo">
+        </div>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="tasks.html" class="active">Task List</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tasks-section">
+            <h2>Task List</h2>
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Add a new suggestion...">
+                <button id="addTask" class="btn" onclick="addTask()">Add Task</button>
+            </div>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">Contact Me</p>
+        <a href="https://www.linkedin.com/in/tulika-thampi" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/Tulika-Thampi" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
