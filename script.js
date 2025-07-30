@@ -5,42 +5,42 @@ const projects = [
         category: "JavaScript",
         description: "A website using Javascript giving information about celestial bodies, using Excel as database.",
         date: "2024-12-15",
-        image: "celestial.PNG"
+        image: "celestial.png"
     },
     {
         name: "Interactive Website",
         category: "JavaScript",
         description: "An interactive website for beginners to interact with HTML, CSS and javascript.",
         date: "2025-05-20",
-        image: "interactive.PNG"
+        image: "interactive.png"
     },
     {
         name: "Personality Test Website",
         category: "React",
         description: "A website made using React and Tailwind css for users to take a personality test that gives their MBTI personality type.",
         date: "2025-07-10",
-        image: "personality.PNG"
+        image: "personality.png"
     },
     {
         name: "CodeScroll Website",
         category: "React",
         description: "A website to generate code documentation for given code.",
         date: "2025-04-25",
-        image: "codescroll.PNG"
+        image: "codescroll.png"
     },
     {
         name: "Whatsapp Text Saver",
         category: "Android Studio",
         description: "A mobile app for saving WhatsApp messages, both personal and group types.",
         date: "2025-03-10",
-        image: "textsaver.PNG"
+        image: "textsaver.png"
     },
     {
         name: "Notes App",
         category: "Android Studio",
         description: "An app to create and save notes and reminders",
         date: "2024-12-20",
-        image: "notes.PNG"
+        image: "notes.png"
     }
 ];
 
